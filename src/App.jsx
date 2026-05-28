@@ -148,13 +148,12 @@ function App() {
           </div>
 
           {/* Activity row */}
-          <div className="grid grid-cols-1 xl:grid-cols-3">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-4">
             {" "}
             <ActivityFeed />
             {/* Quick stats mini */}
             <div
-              className="bg-[#111827] mt-[2.7vh] border border-[#1e2d4a]  col-span-2 stat-border card-glow rounded-xl p-5 bg-dark-700 fade-up"
-              style={{ animationDelay: "500ms" }}
+className="bg-[#111827] mt-4 xl:mt-0 border border-[#1e2d4a] xl:col-span-2 stat-border card-glow rounded-xl p-4 sm:p-5 bg-dark-700 fade-up"              style={{ animationDelay: "500ms" }}
             >
               <h3 className="font-syne font-600 text-white text-sm mb-1">
                 Performance Metrics
@@ -162,8 +161,7 @@ function App() {
               <p className="text-xs text-gray-500 mb-4">
                 Key indicators this week
               </p>
-              <div className="grid grid-cols-3 gap-3">
-                {[
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">                {[
                   {
                     label: "Avg. Order Value",
                     value: "₹6,240",
