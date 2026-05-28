@@ -6,7 +6,7 @@ function OrdersTable() {
       className="bg-[#111827] border border-[#1e2d4a] h-[360px] stat-border card-glow rounded-xl bg-dark-700 fade-up overflow-scroll"
       style={{ animationDelay: "400ms" }}
     >
-      <div className="flex items-center justify-between px-5 py-4 border-b border-dark-400">
+      <div className="flex items-center justify-between px-5 py-4 border-b border-[#6490e6]">
         <div>
           <h3 className="font-syne font-600 text-white text-sm">
             Recent Orders
@@ -20,7 +20,7 @@ function OrdersTable() {
       <div className="overflow-x-auto">
         <table className="w-full">
           <thead>
-            <tr className="border-b border-dark-400">
+            <tr className="border-b border-[#6490e6]">
               {[
                 "Order ID",
                 "Product",
@@ -31,7 +31,7 @@ function OrdersTable() {
               ].map((h) => (
                 <th
                   key={h}
-                  className="text-left text-xs text-gray-600 font-400 px-5 py-3 uppercase tracking-wide"
+                  className="text-left text-xs text-[#3274f8] font-400 px-5 py-3 uppercase tracking-wide"
                 >
                   {h}
                 </th>
@@ -42,7 +42,7 @@ function OrdersTable() {
             {orders.map((o, i) => (
               <tr
                 key={i}
-                className="border-b border-dark-500 hover:bg-dark-600 transition-colors"
+                className="border-b border-[#1e2d4a] hover:bg-dark-600 transition-colors"
               >
                 <td className="px-5 py-3.5 text-xs text-blue-400 font-500">
                   {o.id}

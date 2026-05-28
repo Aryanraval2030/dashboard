@@ -13,7 +13,7 @@ function DonutChart() {
 
   return (
     <div
-      className="bg-[#111827] border border-[#1e2d4a] stat-border card-glow rounded-xl p-5 bg-dark-700 fade-upp"
+      className="bg-[#111827] border border-[#1e2d4a] stat-border card-glow rounded-xl p-5 bg-dark-700 fade-up"
       style={{ animationDelay: "300ms" }}
     >
       <h3 className="font-syne font-600 text-white text-sm mb-1">

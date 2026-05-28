@@ -204,7 +204,7 @@ function App() {
                 ].map((m, i) => (
                   <div
                     key={i}
-                    className="bg-dark-600 rounded-lg p-3.5 border border-dark-400"
+                    className="bg-dark-600 rounded-lg card-glow p-3.5 border border-[#1e2d4a]"
                   >
                     <div
                       className="w-7 h-7 rounded-md flex items-center justify-center text-sm mb-2"
