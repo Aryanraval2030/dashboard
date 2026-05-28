@@ -40,7 +40,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
           </span>
         </div>
       </div>
-      <div className="px-3 pt-4 flex-1 overflow-y-auto">
+      <div className="px-3 pt-4 flex-1 overflow-scroll">
         <p className="text-xs text-gray-600 font-500 px-3 mb-2 tracking-widest uppercase">
           Main Menu
         </p>
