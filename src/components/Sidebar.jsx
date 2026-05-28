@@ -4,7 +4,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
   className={`
     bg-[#111827] border border-[#1e2d4a]
     fixed left-0 top-0 z-50
-    h-screen w-[260px]
+    h-[100vh] w-[260px]
     flex flex-col
     transition-transform duration-300
     ${sidebarOpen ? "translate-x-0" : "-translate-x-full"}
@@ -13,7 +13,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
 
     >
       {" "}
-      <div className="flex justify-end p-4 lg:hidden">
+      <div className="flex justify-end pt-4 pb-0 pr-4 lg:hidden">
         <button
           onClick={() => setSidebarOpen(false)}
           className="text-white text-2xl"
@@ -21,7 +21,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
           ✕
         </button>
       </div>
-      <div className="px-5 py-5 border-b  border-dark-400">
+      <div className="px-5 sm:py-5 py-2 border-b border-dark-400">
         <div className="flex items-center gap-2.5">
           <div
             className="w-7 h-7 rounded-lg flex items-center justify-center text-white text-xs font-bold"
