@@ -21,7 +21,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
           ✕
         </button>
       </div>
-      <div className="px-5 py-5 border-b h-[12vh] border-dark-400">
+      <div className="px-5 py-5 border-b  border-dark-400">
         <div className="flex items-center gap-2.5">
           <div
             className="w-7 h-7 rounded-lg flex items-center justify-center text-white text-xs font-bold"

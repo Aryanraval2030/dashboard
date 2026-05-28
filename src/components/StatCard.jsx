@@ -18,6 +18,7 @@ function StatCard({ stat, delay }) {
           style={{
             background: stat.color + "18",
             border: `1px solid ${stat.color}33`,
+            color: "white",
           }}
         >
           {stat.icon}
