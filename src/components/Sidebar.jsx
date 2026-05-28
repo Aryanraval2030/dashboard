@@ -21,7 +21,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
           ✕
         </button>
       </div>
-      <div className="px-5 sm:py-5 py-2 border-b border-dark-400">
+      <div className="px-5 sm:py-5 py-2 border-b border-[#1e2d4a] border-dark-400">
         <div className="flex items-center gap-2.5">
           <div
             className="w-7 h-7 rounded-lg flex items-center justify-center text-white text-xs font-bold"
@@ -60,7 +60,7 @@ function Sidebar({ active, setActive, navItems, sidebarOpen, setSidebarOpen }) {
           </button>
         ))}
       </div>
-      <div className="p-4 border-t border-dark-400">
+      <div className="p-4 border-t border-[#1e2d4a]">
         <div className="flex items-center gap-3 px-2">
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-xs font-600">
             AD
